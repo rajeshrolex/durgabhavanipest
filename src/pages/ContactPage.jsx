@@ -12,8 +12,8 @@ const contactInfo = [
     {
         icon: FiMail,
         title: 'Email',
-        details: ['info@durgabhavanipest.in'],
-        link: 'mailto:info@durgabhavanipest.in',
+        details: ['durgabhavanipestcontrol@gmail.com', 'durgabhavanipesticids@gmail.com'],
+        link: 'mailto:durgabhavanipestcontrol@gmail.com',
     },
     {
         icon: FiMapPin,

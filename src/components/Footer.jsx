@@ -112,9 +112,14 @@ const Footer = () => {
                             </li>
                             <li className="flex items-start space-x-3">
                                 <FiMail className="w-5 h-5 text-primary-400 mt-1" />
-                                <a href="mailto:info@durgabhavanipest.in" className="text-gray-400 hover:text-primary-400 transition-colors">
-                                    info@durgabhavanipest.in
-                                </a>
+                                <div>
+                                    <a href="mailto:durgabhavanipestcontrol@gmail.com" className="text-gray-400 hover:text-primary-400 transition-colors block">
+                                        durgabhavanipestcontrol@gmail.com
+                                    </a>
+                                    <a href="mailto:durgabhavanipesticids@gmail.com" className="text-gray-400 hover:text-primary-400 transition-colors block">
+                                        durgabhavanipesticids@gmail.com
+                                    </a>
+                                </div>
                             </li>
                             <li className="flex items-start space-x-3">
                                 <FiMapPin className="w-5 h-5 text-primary-400 mt-1" />
