@@ -144,6 +144,16 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
+                    <div className="mt-4 text-center">
+                        <a
+                            href="https://www.sandanithin.shop/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-500 text-sm hover:text-primary-400 transition-colors"
+                        >
+                            Designed and Developed by onlinewebsites
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
