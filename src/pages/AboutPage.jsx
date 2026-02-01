@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FiAward, FiUsers, FiCalendar, FiMapPin, FiCheck, FiArrowRight } from 'react-icons/fi'
+import SEO from '../components/SEO'
 
 const stats = [
     { icon: FiCalendar, value: '15+', label: 'Years Experience' },
@@ -50,6 +51,11 @@ const team = [
 const AboutPage = () => {
     return (
         <main className="pt-20">
+            <SEO
+                title="About Us"
+                description="Learn about Durga Bhavani Pest Control's history, values, and expert team. Over 15 years of experience in providing safe and effective pest management."
+                canonical="/about"
+            />
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-dark-900 via-dark-800 to-primary-900 py-20 lg:py-32">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

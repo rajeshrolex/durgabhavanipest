@@ -17,7 +17,7 @@ const services = [
         icon: '🐜',
         title: 'Termite Control',
         description: 'Comprehensive termite inspection and treatment to protect your property from structural damage.',
-        image: '/images/termite.png',
+        image: '/images/termite_control.jpg',
     },
     {
         id: 3,

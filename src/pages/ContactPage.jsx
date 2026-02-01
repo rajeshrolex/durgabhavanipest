@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FiPhone, FiMail, FiMapPin, FiClock, FiSend } from 'react-icons/fi'
+import SEO from '../components/SEO'
 
 const contactInfo = [
     {
@@ -55,6 +56,11 @@ const ContactPage = () => {
 
     return (
         <main className="pt-20">
+            <SEO
+                title="Contact Us"
+                description="Get in touch with Durga Bhavani Pest Control for a free quote. We serve Hyderabad, Nizamabad, and Karimnagar."
+                canonical="/contact"
+            />
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-dark-900 via-dark-800 to-primary-900 py-20 lg:py-32">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

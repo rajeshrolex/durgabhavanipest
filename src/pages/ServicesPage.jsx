@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FiCheck, FiArrowRight, FiPhone } from 'react-icons/fi'
+import SEO from '../components/SEO'
 
 const services = [
     {
@@ -16,7 +17,7 @@ const services = [
             'Annual maintenance contracts',
         ],
         color: 'from-amber-500 to-orange-600',
-        image: '/images/termite.png',
+        image: '/images/termite_control.jpg',
     },
     {
         id: 2,
@@ -93,6 +94,12 @@ const services = [
 const ServicesPage = () => {
     return (
         <main className="pt-20">
+            <SEO
+                title="Our Services"
+                description="Professional pest control services including termite control, cockroach control, rodent control, mosquito control, and more."
+                keywords="pest control services, termite treatment, cockroach herbal treatment, mosquito fogging"
+                canonical="/services"
+            />
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-dark-900 via-dark-800 to-primary-900 py-20 lg:py-32">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
