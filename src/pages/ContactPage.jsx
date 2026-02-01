@@ -28,7 +28,7 @@ const contactInfo = [
     {
         icon: FiClock,
         title: 'Working Hours',
-        details: ['Mon - Sat: 8AM - 8PM', 'Sunday: 9AM - 5PM'],
+        details: ['Mon - Sat: 8:00 AM - 10:00 PM', 'Sunday: 8:00 AM - 5:00 PM'],
         link: null,
     },
 ]
