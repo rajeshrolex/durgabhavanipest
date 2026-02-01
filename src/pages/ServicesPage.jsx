@@ -151,7 +151,7 @@ const ServicesPage = () => {
                                             Get Free Quote
                                             <FiArrowRight className="ml-2" />
                                         </Link>
-                                        <a href="tel:+919876543210" className="btn-secondary">
+                                        <a href="tel:+918790128760" className="btn-secondary">
                                             <FiPhone className="mr-2" />
                                             Call Now
                                         </a>
@@ -193,9 +193,9 @@ const ServicesPage = () => {
                                 Get Free Quote
                                 <FiArrowRight className="ml-2" />
                             </Link>
-                            <a href="tel:+919876543210" className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-colors inline-flex items-center justify-center">
+                            <a href="tel:+918790128760" className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-colors inline-flex items-center justify-center">
                                 <FiPhone className="mr-2" />
-                                +91 98765 43210
+                                +91 87901 28760
                             </a>
                         </div>
                     </motion.div>

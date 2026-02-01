@@ -6,8 +6,8 @@ const contactInfo = [
     {
         icon: FiPhone,
         title: 'Phone',
-        details: ['+91 98765 43210', '+91 87654 32109'],
-        link: 'tel:+919876543210',
+        details: ['+91 87901 28760', '+91 95426 81438'],
+        link: 'tel:+918790128760',
     },
     {
         icon: FiMail,
@@ -17,8 +17,12 @@ const contactInfo = [
     },
     {
         icon: FiMapPin,
-        title: 'Address',
-        details: ['Hyderabad, Telangana', 'India'],
+        title: 'Our Branches',
+        details: [
+            '37 plot ragavendra colony, madapur ayyappa society, 500081',
+            '1-47/2/27 office vinayaka nager Nizamabad, 503001',
+            '1-37/22/2 plot near bus stand ambethukar circul karimnagar, 505001'
+        ],
         link: null,
     },
     {
@@ -46,7 +50,7 @@ const ContactPage = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         const message = `Hello! I'm interested in your pest control services.%0A%0AName: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0AService: ${formData.service}%0AMessage: ${formData.message}`
-        window.open(`https://wa.me/919876543210?text=${message}`, '_blank')
+        window.open(`https://wa.me/919542681438?text=${message}`, '_blank')
     }
 
     return (
@@ -224,7 +228,7 @@ const ContactPage = () => {
                             {/* Map */}
                             <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-80">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3267!2d78.24323!3d17.41228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1620000000000"
+                                    src="https://maps.google.com/maps?q=37%20Plot%20Ragavendra%20Colony%2C%20Madapur%20Ayyappa%20Society%2C%20Hyderabad%20500081&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}

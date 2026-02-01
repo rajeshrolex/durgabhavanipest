@@ -3,8 +3,8 @@ import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiMenu, FiX, FiPhone } from 'react-icons/fi'
 
-const PHONE_NUMBER = '+919542681438'
-const PHONE_DISPLAY = '+91 95426 81438'
+const PHONE_NUMBER = '+918790128760'
+const PHONE_DISPLAY = '+91 87901 28760'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -47,8 +47,8 @@ const Navbar = () => {
                                 key={link.name}
                                 to={link.path}
                                 className={`text-sm font-medium transition-colors duration-200 ${location.pathname === link.path
-                                        ? 'text-primary-600'
-                                        : 'text-gray-700 hover:text-primary-600'
+                                    ? 'text-primary-600'
+                                    : 'text-gray-700 hover:text-primary-600'
                                     }`}
                             >
                                 {link.name}
@@ -96,8 +96,8 @@ const Navbar = () => {
                                     to={link.path}
                                     onClick={() => setIsOpen(false)}
                                     className={`block px-4 py-3 rounded-lg font-medium transition-colors ${location.pathname === link.path
-                                            ? 'bg-primary-50 text-primary-600'
-                                            : 'text-gray-700 hover:bg-gray-50'
+                                        ? 'bg-primary-50 text-primary-600'
+                                        : 'text-gray-700 hover:bg-gray-50'
                                         }`}
                                 >
                                     {link.name}

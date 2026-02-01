@@ -102,11 +102,11 @@ const Footer = () => {
                             <li className="flex items-start space-x-3">
                                 <FiPhone className="w-5 h-5 text-primary-400 mt-1" />
                                 <div>
-                                    <a href="tel:+919876543210" className="text-gray-400 hover:text-primary-400 transition-colors block">
-                                        +91 98765 43210
+                                    <a href="tel:+918790128760" className="text-gray-400 hover:text-primary-400 transition-colors block">
+                                        +91 87901 28760
                                     </a>
-                                    <a href="tel:+918765432109" className="text-gray-400 hover:text-primary-400 transition-colors block">
-                                        +91 87654 32109
+                                    <a href="https://wa.me/919542681438" className="text-gray-400 hover:text-primary-400 transition-colors block">
+                                        +91 95426 81438 (WA)
                                     </a>
                                 </div>
                             </li>
@@ -118,9 +118,10 @@ const Footer = () => {
                             </li>
                             <li className="flex items-start space-x-3">
                                 <FiMapPin className="w-5 h-5 text-primary-400 mt-1" />
-                                <span className="text-gray-400">
-                                    Hyderabad, Telangana<br />
-                                    India
+                                <span className="text-gray-400 text-sm">
+                                    <strong className="block text-primary-400">Hyderabad:</strong> 37 plot ragavendra colony, madapur<br /> ayyappa society, 500081<br />
+                                    <strong className="block text-primary-400 mt-2">Nizamabad:</strong> 1-47/2/27 office vinayaka nager, 503001<br />
+                                    <strong className="block text-primary-400 mt-2">Karimnagar:</strong> 1-37/22/2 plot near bus stand ambethukar circul, 505001
                                 </span>
                             </li>
                         </ul>

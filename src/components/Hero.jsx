@@ -136,7 +136,7 @@ const Hero = () => {
                                 Get Free Inspection
                                 <FiArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5" />
                             </Link>
-                            <a href="tel:+919542681438" className="btn-secondary bg-white/10 border-white/30 text-white hover:bg-white/20 text-sm md:text-base px-5 md:px-6 py-2.5 md:py-3 justify-center">
+                            <a href="tel:+918790128760" className="btn-secondary bg-white/10 border-white/30 text-white hover:bg-white/20 text-sm md:text-base px-5 md:px-6 py-2.5 md:py-3 justify-center">
                                 <FiPhone className="mr-2 w-4 h-4 md:w-5 md:h-5" />
                                 Call Now
                             </a>

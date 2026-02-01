@@ -68,6 +68,34 @@ const services = [
         description: 'Professional thermal fogging services for large-scale pest control in outdoor and indoor areas.',
         image: '/images/fogging.png',
     },
+    {
+        id: 10,
+        icon: '🎨',
+        title: 'Painting Service',
+        description: 'Professional painting services for residential and commercial properties with premium finish.',
+        image: '/images/painting.png',
+    },
+    {
+        id: 11,
+        icon: '🧱',
+        title: 'Waterproofing Service',
+        description: 'Expert waterproofing solutions to protect your building from leakage and dampness.',
+        image: '/images/waterproofing.png',
+    },
+    {
+        id: 12,
+        icon: '🕸️',
+        title: 'Mosquito Nets Service',
+        description: 'Custom-fit mosquito nets for windows and doors to ensure a pest-free environment.',
+        image: '/images/mosquito-net.png',
+    },
+    {
+        id: 13,
+        icon: '🛋️',
+        title: 'Interior Designers',
+        description: 'Creative interior design services to transform your space into a modern and functional area.',
+        image: '/images/interior.png',
+    },
 ]
 
 const serviceAreas = [
