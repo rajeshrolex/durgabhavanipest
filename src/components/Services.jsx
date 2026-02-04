@@ -99,16 +99,16 @@ const services = [
 ]
 
 const serviceAreas = [
-    { icon: '🏢', title: 'Apartments' },
-    { icon: '🏭', title: 'Industrial' },
-    { icon: '🏪', title: 'Commercial' },
-    { icon: '🏢', title: 'Offices' },
-    { icon: '🏦', title: 'Banks' },
-    { icon: '🏨', title: 'Hotels' },
-    { icon: '🏠', title: 'Hostels' },
-    { icon: '💊', title: 'Pharmacy Companies' },
-    { icon: '🎬', title: 'Cinema Malls' },
-    { icon: '🛒', title: 'Shopping Malls' },
+    { image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=100&h=100&fit=crop', title: 'Apartments' },
+    { image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=100&h=100&fit=crop', title: 'Industrial' },
+    { image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=100&h=100&fit=crop', title: 'Commercial' },
+    { image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=100&h=100&fit=crop', title: 'Offices' },
+    { image: 'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=100&h=100&fit=crop', title: 'Banks' },
+    { image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=100&h=100&fit=crop', title: 'Hotels' },
+    { image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=100&h=100&fit=crop', title: 'Hostels' },
+    { image: 'https://images.unsplash.com/photo-1576602976047-174e57a47881?w=100&h=100&fit=crop', title: 'Pharmacy Companies' },
+    { image: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=100&h=100&fit=crop', title: 'Cinema Malls' },
+    { image: 'https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=100&h=100&fit=crop', title: 'Shopping Malls' },
 ]
 
 const handleWhatsAppClick = (serviceName) => {
@@ -206,9 +206,13 @@ const Services = () => {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.05 }}
-                                className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
+                                className="flex items-center gap-2 bg-white px-3 py-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
                             >
-                                <span className="text-lg">{area.icon}</span>
+                                <img
+                                    src={area.image}
+                                    alt={area.title}
+                                    className="w-12 h-12 rounded-full object-cover"
+                                />
                                 <span className="text-sm font-medium text-gray-700">{area.title}</span>
                             </motion.div>
                         ))}

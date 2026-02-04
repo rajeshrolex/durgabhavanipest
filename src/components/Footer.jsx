@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FiPhone, FiMail, FiMapPin, FiFacebook, FiInstagram, FiTwitter, FiYoutube } from 'react-icons/fi'
+import { FiPhone, FiMail, FiMapPin, FiFacebook, FiInstagram, FiYoutube } from 'react-icons/fi'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear()
@@ -22,10 +22,9 @@ const Footer = () => {
     ]
 
     const socialLinks = [
-        { icon: FiFacebook, href: '#', label: 'Facebook' },
-        { icon: FiInstagram, href: '#', label: 'Instagram' },
-        { icon: FiTwitter, href: '#', label: 'Twitter' },
-        { icon: FiYoutube, href: '#', label: 'YouTube' },
+        { icon: FiFacebook, href: 'https://www.facebook.com/durga.bhavani.628283', label: 'Facebook' },
+        { icon: FiInstagram, href: 'https://www.instagram.com/durgabhavani2916', label: 'Instagram' },
+        { icon: FiYoutube, href: 'https://www.youtube.com/@durgabhavanipestcontrolservice', label: 'YouTube' },
     ]
 
     return (

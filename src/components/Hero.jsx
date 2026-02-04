@@ -6,8 +6,8 @@ import { FiPhone, FiArrowRight, FiShield, FiCheck, FiChevronLeft, FiChevronRight
 const heroSlides = [
     {
         id: 1,
-        image: '/images/hero1.png',
-        title: 'Professional Pest Control',
+        image: '/images/hero-new.png',
+        title: 'Durga Bhavani Pest Control Service',
         subtitle: 'Expert Solutions for Your Home',
     },
     {
