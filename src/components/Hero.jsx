@@ -76,8 +76,7 @@ const Hero = () => {
                         backgroundRepeat: 'no-repeat',
                     }}
                 >
-                    {/* Dark Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-dark-900/95 via-dark-900/80 to-dark-900/60" />
+                    {/* Dark Overlay - Removed */}
                 </div>
             ))}
 
