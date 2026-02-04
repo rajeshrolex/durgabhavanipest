@@ -7,18 +7,21 @@ const heroSlides = [
     {
         id: 1,
         image: '/images/hero-new.png',
+        mobileImage: '/images/hero3.png',
         title: 'Durga Bhavani Pest Control Service',
         subtitle: 'Expert Solutions for Your Home',
     },
     {
         id: 2,
         image: '/images/hero2.png',
+        mobileImage: '/images/hero2.png',
         title: 'Safe for Your Family',
         subtitle: 'Eco-Friendly & Pet Safe',
     },
     {
         id: 3,
         image: '/images/hero3.png',
+        mobileImage: '/images/hero3.png',
         title: 'Trusted Professionals',
         subtitle: '15+ Years of Excellence',
     },
@@ -26,6 +29,17 @@ const heroSlides = [
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
+    const [isMobile, setIsMobile] = useState(false)
+
+    // Detect mobile screen
+    useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth < 768)
+        }
+        checkMobile()
+        window.addEventListener('resize', checkMobile)
+        return () => window.removeEventListener('resize', checkMobile)
+    }, [])
 
     // Auto-scroll every 5 seconds
     useEffect(() => {
@@ -43,6 +57,10 @@ const Hero = () => {
         setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)
     }
 
+    const getImageUrl = (slide) => {
+        return isMobile && slide.mobileImage ? slide.mobileImage : slide.image
+    }
+
     return (
         <section className="relative w-full h-screen min-h-[600px] flex items-center overflow-hidden">
             {/* Background Images */}
@@ -52,7 +70,7 @@ const Hero = () => {
                     className={`absolute inset-0 w-full h-full transition-opacity duration-700 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
                         }`}
                     style={{
-                        backgroundImage: `url(${slide.image})`,
+                        backgroundImage: `url(${getImageUrl(slide)})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
